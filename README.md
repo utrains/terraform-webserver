@@ -1,7 +1,7 @@
-# Create Apache Webserver in AWS Using Terraform
+# Create Httpd server in AWS Using Terraform
 ## Installation of required AWS packages
-- Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/installing.html)
-- Configure [AWS CLI](https://docs.aws.amazon.com/cli/latest/reference/configure/)
+- Install  __AWS CLI__ 
+- Configure __AWS CLI__
 - Please note, Configuring AWS using `aws configure` CLI command, will write the AWS secret and access key to `~/$USER_HOME/.aws/credentials` file and it will used to authenticate the terraform infra creation in AWS.
 
 ##  Install and Configure Terraform
@@ -232,10 +232,10 @@ Outputs:
 web_instance_ip = "34.220.248.140"
 ``` 
 ## Access the Webserver
-- We can access the webserver using the public IP
+- We can access the httpd server using the public IP
 - Screenshot Below,
 
-![Apache WebServer Page](https://github.com/chefgs/repo_images/blob/master/apache2page.png?raw=true)
+
 
 ## Cleanup 
 - As part of learning we will also cleanup the server using the command,
